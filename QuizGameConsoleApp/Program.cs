@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.IO;
+
+string[] text = File.ReadAllLines("questions.txt");
+
+for (int i = 0; i < text.Length; i++)
+{
+    Console.WriteLine(text[i]);
+}
