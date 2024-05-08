@@ -48,5 +48,5 @@ for (int i = 0; i < text.Length; i++)
     }
 
 Console.WriteLine("End of quiz! Your score was " + score);
-
+//
 
